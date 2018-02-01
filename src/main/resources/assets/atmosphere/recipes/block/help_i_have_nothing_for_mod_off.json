@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:crafting_shaped",
-    "result": { "item": "atmosphere:help_i_have_nothing_for_mod_off" },
-    "pattern": [ "B", "D" ],
-    "key": {
-        "B": { "item": "minecraft:stonebrick", "data": 0 },
-        "D": { "item": "minecraft:dirt", "data": 0 }
-    }
-}
