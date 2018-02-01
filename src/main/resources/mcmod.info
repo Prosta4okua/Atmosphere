@@ -1,8 +1,8 @@
 [
     {
-        "modid": "galactic",
-        "name": "Galactic",
-        "description": "",
+        "modid": "atmosphere",
+        "name": "Atmosphere",
+        "description": "I don't even know anymore tbh.",
         "version": "${version}",
         "mcversion": "[1.12,1.13)",
         "authorList": [ "InsomniaKitten" ]

@@ -1,17 +1,24 @@
-package net.insomniakitten.galactic;
+package net.insomniakitten.atmosphere;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
+import net.minecraft.launchwrapper.Launch;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-@Mod(modid = Galactic.ID, name = Galactic.NAME, version = Galactic.VERSION)
-public final class Galactic {
+@Mod(modid = Atmosphere.ID, name = Atmosphere.NAME, version = Atmosphere.VERSION)
+public final class Atmosphere {
 
-    public static final String ID = "galactic";
-    public static final String NAME = "Galactic";
+    public static final String ID = "atmosphere";
+    public static final String NAME = "Atmosphere";
     public static final String VERSION = "%VERSION%";
+
+    public static final Logger LOGGER = LogManager.getLogger(ID);
+
+    public static final boolean DEOBF = (boolean) Launch.blackboard.get("fml.deobfuscatedEnvironment");
 
     public static final CreativeTabs TAB = new CreativeTabs(ID) {
         @Override

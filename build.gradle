@@ -19,15 +19,15 @@ def jeiVersion = '1.12.2:4.8.5.146'
 def ctmVersion = 'MC1.12-0.2.3.12'
 
 version = "1.12-${modVersion}"
-group = 'net.insomniakitten.galactic'
-archivesBaseName = 'Galactic'
+group = 'net.insomniakitten.atmosphere'
+archivesBaseName = 'Atmosphere'
 sourceCompatibility = 1.8
 
 minecraft {
     version = mcfVersion
     mappings = mcpMappings
     runDir = 'run'
-    replaceIn 'Galactic.java'
+    replaceIn 'Atmosphere.java'
     replace '%VERSION%', modVersion
 }
 
